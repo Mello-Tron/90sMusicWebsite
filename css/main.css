@@ -1,0 +1,138 @@
+body {
+    padding-top: 70px;
+}
+
+.navbar {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-toggle{
+    background-color: black;
+    border-color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #1AD6FD;
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-size:20px;
+}
+
+.home-nav:hover {
+    transform: rotate(-9deg);
+}
+
+.services-nav:hover {
+    transform: rotate(7deg);
+}
+
+.contact-nav:hover {
+    transform: rotate(-170deg);
+}
+
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+    color: black;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-brand, 
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a, 
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patrick Hand SC';
+    color: black;
+}
+p, div {
+    font-family: 'Patrick Hand SC';
+    color:black;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url(8.jpg);
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.defaultcursor {
+    cursor: default;
+}
+
+.rowH {
+    padding-bottom: 10px;
+    
+}
+
+.rowSC {
+    padding-bottom: 12px;
+}
+
+.input-group-addon {
+    background-color: black;
+    border-color: black;
+}
+
+.form-control {
+    background-color: white;
+    border-color: black;
+}
+
+.control-label, input {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+textarea {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.descriptionbox {
+    height: 500px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.btn:hover, .btn:focus {
+    
+    transform: rotate(-7deg);
+    color: #1AD6FD;
+}
+
+.rowin {
+    padding-bottom: 12px;
+}
+
+.rowbtn {
+    padding-bottom: 12px;
+}
